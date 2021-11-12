@@ -4,9 +4,7 @@ package sistemamedico;
  *
  * @author eli
  */
-public class Administrador extends Persona {
-    
-    protected Persona registradoPor;
+public class Administrador_a extends Persona {
 
     public void registrarUsuario() {
 

@@ -12,9 +12,7 @@ public class Paciente extends Persona {
     protected HistoriaClinica historiaClinica;
     protected Receta recipe;
 
-    public Paciente(String email, Cita cita, HistoriaClinica historiaClinica) {
-        this.email = email;
-        this.cita = cita;
+    public Paciente() {
         historiaClinica = new HistoriaClinica();
         recipe = new Receta();
     }

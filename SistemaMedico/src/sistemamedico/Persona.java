@@ -14,6 +14,7 @@ public class Persona {
 	protected String apellido;
 	protected String direccion;
 	protected Date fechaNac;
+        protected Administrador_a registradoPor;
 
 	public boolean login() {
             return false;
